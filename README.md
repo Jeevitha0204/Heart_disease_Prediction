@@ -15,8 +15,8 @@ This project is a machine learning-based web application that predicts the likel
 
 # Features
 
-- Upload or manually input patient data (e.g., age, cholesterol, blood pressure, etc.)
-- View real-time heart disease risk prediction (Yes/No)
+- Upload UCI heart disease dataset(e.g., age, cholesterol, blood pressure, etc.)
+- View real-time heart disease risk prediction.
 - Backend powered by trained ML model
 - Simple and intuitive interface for non-technical users
 
@@ -25,9 +25,8 @@ This project is a machine learning-based web application that predicts the likel
 
 - **Language:** Python  
 - **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn  
-- **Model:** Logistic Regression (or Random Forest, Decision Tree — depending on your final model)  
-- **Frontend:** Streamlit  
-- **Deployment:** Streamlit Sharing (or Hugging Face Spaces)
+- **Model:** Logistic Regression, Random Forest, Decision Tree(SVM)    
+- **Deployment:** Streamlit 
 
 
 # Installation & Setup
@@ -46,7 +45,7 @@ streamlit run app.py
 # Dataset Used
 Source: UCI Heart Disease Dataset
 Features: Age, Sex, Chest Pain Type, Cholesterol, Blood Pressure, etc.
-Target: Presence of heart disease (0 = No, 1 = Yes)
+Target: Presence of heart disease
 
 # Machine Learning Workflow
 Data Cleaning & Preprocessing
