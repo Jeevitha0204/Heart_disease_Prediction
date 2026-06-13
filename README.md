@@ -1,6 +1,5 @@
 # Heart_disease_Prediction
 ML app to predict heart disease 
-# Heart Disease Prediction Web App
 
 This project is a machine learning-based web application that predicts the likelihood of heart disease in patients based on clinical parameters. The model was trained using a public dataset and deployed using **Streamlit**, allowing real-time predictions directly from a user-friendly interface.
 
